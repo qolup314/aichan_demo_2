@@ -11,11 +11,11 @@ def main():
         font-style: bold;
         font-size:40px !important;
         background-color: #cc99ff;
+        display: inline-block;
         width: 100%;
-        height: 140px;
         border-radius: 10px;
         text-align: center;
-        padding: 5px 0;
+        padding: 5px;
         box-shadow:
           inset 2px 2px 3px rgba(255, 255, 255, 0.6),
           inset -2px -2px 3px rgba(0, 0, 0, 0.6);    
@@ -26,13 +26,12 @@ def main():
 
   st.markdown("""
     <style>
-      .subtitle_format {
-              
+      .subtitle_format {        
         font-style: bold;  
         font-size:25px !important;
         background-color: #cc99ff;
+        display: inline-block;
         width: 100%;
-        height: 100px;
         border-radius: 10px;
         text-align: center;
         padding: 9px 0;
