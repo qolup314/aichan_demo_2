@@ -8,17 +8,13 @@ def main():
   st.markdown("""
     <style>
       .title_format {
-        font-style: bold;
-        font-size:40px !important;
+        font-size:25px !important;
         background-color: #cc99ff;
-        display: inline-block;
-        width: 100%;
         border-radius: 10px;
         text-align: center;
-        padding: 5px;
         box-shadow:
           inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-          inset -2px -2px 3px rgba(0, 0, 0, 0.6);    
+          inset -2px -2px 3px rgba(0, 0, 0, 0.6);
       }
     </style>
   """, unsafe_allow_html=True)
@@ -27,21 +23,17 @@ def main():
   st.markdown("""
     <style>
       .subtitle_format {        
-        font-style: bold;  
         font-size:25px !important;
         background-color: #cc99ff;
-        display: inline-block;
-        width: 100%;
         border-radius: 10px;
         text-align: center;
-        padding: 9px 0;
         box-shadow:
           inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-          inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+          inset -2px -2px 3px rgba(0, 0, 0, 0.6);       
       }
     </style>
   """, unsafe_allow_html=True)
-  st.markdown('<p class="subtitle_format">人工知能(AI)のお守りAI(アイ)ちゃんがあなたの相談相手になります</p>', unsafe_allow_html=True)
+  st.markdown('<p class="subtitle_format">人工知能(AI)のお守りAI(アイ)ちゃんがあなたの相談相手に</p>', unsafe_allow_html=True)
   
   # API_KEYの設定方式に注意
   # Google AI Studioの"Get code"にあるcodeの設定ではKeyErrorが出た
